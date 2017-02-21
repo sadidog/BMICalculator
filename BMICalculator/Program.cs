@@ -36,7 +36,7 @@ namespace BMICalculator
             else if (BMI >= 30)
                 bmiValue = ("you are obese");
 
-            // tell the user how fat they are
+            // tell the user how fat they are.
             Console.Write($"your BMI is {BMI} ");
             Console.WriteLine($"{bmiValue}");
             Console.ReadLine();
